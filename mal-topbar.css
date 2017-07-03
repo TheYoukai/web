@@ -1,6 +1,6 @@
 /* MAL TOPBAR */
 
-#mal\_control\_strip {
+#mal_control_strip {
     background-image: url("") !important;
     background-color: black !important;
     width: 100%;
@@ -17,7 +17,7 @@
     top: 0px;
     z-index: 5;
 }
-#mal\_control\_strip a {
+#mal_control_strip a {
     color: white;
     font-family: 'Open Sans';
     font-size: 11px;
@@ -27,7 +27,7 @@
     background: transparent;
     text-transform: none;
 }
-#mal\_control\_strip img {
+#mal_control_strip img {
     background: transparent none repeat scroll 0%;
     border: 0 none;
     margin: 0;
@@ -79,13 +79,15 @@
 }
 #mal_cs_powered #search {} #mal_cs_powered #search #searchBox {
     border-radius: 3px;
-    padding: 8px;
-    font-size: 15px !important;
-    color: whitesmoke;
+    padding: 6px;
+    font-size: 11px !important;
+    color: grey;
     text-align: center;
-    background-color: #222222;
+    background-color: #white;
     border-style: none;
     top: 0px !important;
+    margin-top: 3px;
+    margin-right: 5px;
 }
 #searchListButton {
     display: none;
