@@ -112,9 +112,10 @@ padding: 7px;
 
 #list_surround .animetitle + small {
     background: green none repeat scroll 0 0;
-    font-size: 9p;
+    font-size: 8px;
+    border-radius: 3px;
     color: white;
-    margin-left: 10px;
+    margin-left: 5px;
     opacity: 1;
     padding: 2px;
     text-transform: lowercase;
