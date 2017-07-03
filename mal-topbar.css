@@ -33,11 +33,11 @@
     margin: 0;
     padding: 0;
 }
-#mal\_control\_strip table {
+#mal_control_strip table {
     width: auto;
     height: 40px;
 }
-#mal\_control\_strip td {
+#mal_control_strip td {
     height: 40px;
     color: white;
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -45,7 +45,7 @@
     font-variant: normal;
     text-transform: none;
 }
-#mal\_control\_strip td div {
+#mal_control_strip td div {
     margin: 3px 0;
     color: white;
     font-family: Verdana, Arial, Helvetica, sans-serif;
