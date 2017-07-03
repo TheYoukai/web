@@ -1,7 +1,7 @@
 BODY
 {
 margin: 0;
-color: #000000;
+color: black;
 font-size: 11px;
 font-family: Verdana, Arial;
 background-color: #393939;
@@ -24,25 +24,25 @@ left: 0px !important;}
 
 a
 {
-color: #FFFFFF;
+color: white;
 text-decoration: none;
 }
 
 a:visited
 {
-color: #fff;
+color: white;
 text-decoration: none;
 }
 
 a:hover
 {
-color: #FFFFFF;
+color: white;
 text-decoration: none;
 }
 
 .td1
 {
-color: #FFFFFF;
+color: white;
 padding: 7px;
 background-color: #282828;
 }
@@ -51,7 +51,7 @@ background-color: #282828;
 .td1:first-of-type {
     border-width: 0 0 0 0;
     border-left-width: 10px !important;
-    border-color: #000;
+    border-color: black;
     border-style: solid;
 }
 
@@ -59,14 +59,14 @@ background-color: #282828;
 .td1:last-of-type {
     border-width: 0 0 0 0;
     border-right-width: 10px !important;
-    border-color: #000;
+    border-color: black;
     border-style: solid;
 }
 
 
 .td2
 {
-color: #FFFFFF;
+color: white;
 padding: 7px;
 background-color: #3c3c3c;
 }
@@ -75,7 +75,7 @@ background-color: #3c3c3c;
 .td2:first-of-type {
     border-width: 0 0 0 0;
     border-left-width: 10px !important;
-    border-color: #000;
+    border-color: black;
     border-style: solid;
 }
 
@@ -83,14 +83,14 @@ background-color: #3c3c3c;
 .td2:last-of-type {
     border-width: 0 0 0 0;
     border-right-width: 10px !important;
-    border-color: #000;
+    border-color: black;
     border-style: solid;
 }
 
 .table_header
 {
-color: #FFFFFF;
-background-color: #000;
+color: white;
+background-color: black;
 padding: 7px;
 }
 
@@ -98,7 +98,7 @@ padding: 7px;
 .table_header:first-of-type {
     border-width: 0 0 0 0;
     border-left-width: 10px !important;
-    border-color: #000;
+    border-color: black;
     border-style: solid;
 }
 
@@ -106,14 +106,14 @@ padding: 7px;
 .table_header:last-of-type {
     border-width: 0 0 0 0;
     border-right-width: 10px !important;
-    border-color: #000;
+    border-color: black;
     border-style: solid;
 }
 
 #list_surround .animetitle + small {
     background: green none repeat scroll 0 0;
     font-size: 9p;
-    color: #FFFFFF;
+    color: white;
     margin-left: 10px;
     opacity: 1;
     padding: 2px;
@@ -123,7 +123,7 @@ padding: 7px;
 tr:hover td.td1 small, tr:hover td.td2 small {
     font-size: 9px;
     opacity: 1;
-    color: #FFFFFF
+    color: white
 }
 .td1 small, .td2 small {
     font-size: 9px;
@@ -135,12 +135,12 @@ tr:hover .td2, tr:hover .td1 {
 
 .table_headerLink
 {
-color: #FFFFFF;
+color: white;
 }
 
 .table_headerLink:Visited
 {
-color: #FFFFFF;
+color: white;
 }
 
 .table_headerLink:Hover
@@ -153,7 +153,7 @@ color: #dddddd;
 border-width: 1px 1px 1px 1px;
 border-color: #ABABAB;
 border-style: solid;
-color: #000000;
+color: black;
 padding: 2px;
 font-size: 11.00px;
 font-family: Verdana, Arial;
@@ -162,7 +162,7 @@ font-family: Verdana, Arial;
 /* MENU STYLE */
 
 .status_selected {
-    color: #000000;
+    color: black;
     padding: 2px;
     background-color: #ffb500;
 }
@@ -183,9 +183,9 @@ font-family: Verdana, Arial;
     border-radius: 0px 5px 5px 0px;
 }
 .status_not_selected {
-    color: #000000;
+    color: black;
     padding: 2px;
-    background-color: #000000;
+    background-color: black;
 }
 
 /* PUT HERE THE HEADERS FOR COMPLETED, ON HOLD, DROPPED, ETC... */
@@ -220,8 +220,8 @@ font-family: Verdana, Arial;
 .header_title 
 {
 border-radius: 5px 5px 0px 0px;
-color: #fff;
-background-color: #000;
+color: white;
+background-color: black;
 padding: 32px;
 text-align: center;
 font-size: 18px;
@@ -230,13 +230,13 @@ font-weight: bold;
 
 .category_totals
 {
-color: #fff;
+color: white;
 border-radius: 0px 0px 5px 5px;
 padding: 12px;
 text-transform: uppercase;
 text-align: center;
 font-weight: bold;
-background-color: #000;
+background-color: black;
 margin-bottom: 100px !important;
 }
 
@@ -274,7 +274,7 @@ font-weight: bold;
     margin-bottom: 15px;
     font-weight: bold;
     background-color: #ffb500;
-    color: #FFFFFF;
+    color: white;
 }
 
 #copyright::After {
@@ -288,14 +288,14 @@ font-weight: bold;
 
 #mal\_control\_strip {
     background-image: url("") !important;
-    background-color: #000000 !important;
+    background-color: black !important;
     width: 100%;
     height: 50px;
     padding: 0;
     margin: 0;
     left: 0;
     background-repeat: repeat-x;
-    color: #ffffff;
+    color: white;
     font-family: 'Open Sans';
     font-size: 11px;
     font-variant: normal;
@@ -304,7 +304,7 @@ font-weight: bold;
     z-index: 5;
 }
 #mal\_control\_strip a {
-    color: #ffffff;
+    color: white;
     font-family: 'Open Sans';
     font-size: 11px;
     font-variant: normal;
@@ -325,7 +325,7 @@ font-weight: bold;
 }
 #mal\_control\_strip td {
     height: 40px;
-    color: #ffffff;
+    color: white;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 11px;
     font-variant: normal;
@@ -333,7 +333,7 @@ font-weight: bold;
 }
 #mal\_control\_strip td div {
     margin: 3px 0;
-    color: #ffffff;
+    color: white;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 11px;
     font-variant: normal;
